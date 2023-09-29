@@ -1,4 +1,5 @@
 // WEB303 Assignment 2
+// Name: Ruchir Chawdhry
 
 $(document).ready(function() {
   $('#content-wrapper a').on('click', function(e) {

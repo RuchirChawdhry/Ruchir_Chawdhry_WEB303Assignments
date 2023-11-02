@@ -1,11 +1,17 @@
 // Accordian
-$(document).ready(function() {
-    $('.accordion-header').on('click', function() {
+$(document).ready(function(){
+    $('.accordion-content').hide();
+
+    // Event listener for accordion headers
+    $('.accordion-header').click(function() {
+        var container = $(this).closest('.accordion-container');
         var content = $(this).next('.accordion-content');
-        $(this).siblings('.accordion-content').slideUp();
+
+        container.find('.accordion-content').not(content).slideUp();
         content.slideToggle();
     });
 });
+
 
 // Tabbed Content
 function openTab(evt, tabName) {

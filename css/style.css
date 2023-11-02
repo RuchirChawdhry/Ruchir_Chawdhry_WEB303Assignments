@@ -1,0 +1,128 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: white;
+}
+
+.accordion-header {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+}
+
+.accordion-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 8px; 
+
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.accordion {
+    width: 60%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.accordion-container:nth-of-type(1) {
+    background-color: #f7f7f7;
+}
+
+.accordion-container:nth-of-type(2) {
+    background-color: #e9efff; 
+}
+
+.accordion-container + .accordion-container {
+    margin-top: 50px;
+}
+
+cite {
+    font-style: italic;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.tab button {
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.centered-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tabbed-container {
+    display: inline-block;
+    width: 60%;
+}
+
+.sources {
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sources cite, .sources h2 {
+    font-size: 0.9em;
+}
+
+#homi-bhabha {
+    width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+
+cite {
+    display: block;
+    padding-left: 20px;
+}
+
+cite::before {
+    content: "\2192  ";
+}

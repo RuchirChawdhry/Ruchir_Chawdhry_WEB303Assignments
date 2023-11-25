@@ -1,0 +1,61 @@
+{
+    "characters": [
+      {
+        "firstName": "Peter",
+        "lastName": "Pevensie",
+        "title": "High King Peter the Magnificent",
+        "role": "Oldest of the Pevensie siblings",
+        "significantTrait": "Brave and responsible leader",
+        "date": "1900-01-01"
+      },
+      {
+        "firstName": "Susan",
+        "lastName": "Pevensie",
+        "title": "Queen Susan the Gentle",
+        "role": "Second oldest of the Pevensie siblings",
+        "significantTrait": "Calm and compassionate",
+        "date": "1901-02-02"
+      },
+      {
+        "firstName": "Edmund",
+        "lastName": "Pevensie",
+        "title": "King Edmund the Just",
+        "role": "Third of the Pevensie siblings",
+        "significantTrait": "Initially misguided, but redeems himself",
+        "date": "1902-03-03"
+      },
+      {
+        "firstName": "Lucy",
+        "lastName": "Pevensie",
+        "title": "Queen Lucy the Valiant",
+        "role": "Youngest of the Pevensie siblings",
+        "significantTrait": "Innocent and kind-hearted",
+        "date": "1903-04-04"
+      },
+      {
+        "firstName": "Aslan",
+        "lastName": "",
+        "title": "Great Lion",
+        "role": "True ruler of Narnia",
+        "significantTrait": "Majestic and powerful",
+        "date": "1904-05-05"
+      },
+      {
+        "firstName": "Jadis",
+        "lastName": "",
+        "title": "The White Witch",
+        "role": "Usurper of Narnia's throne",
+        "significantTrait": "Cruel and deceptive",
+        "date": "1905-06-06"
+      },
+      {
+        "firstName": "Mr.",
+        "lastName": "Tumnus",
+        "title": "Faun",
+        "role": "Lucy's first friend in Narnia",
+        "significantTrait": "Kind and gentle, but conflicted",
+        "date": "1906-07-07"
+      }
+    ]
+  }
+  
